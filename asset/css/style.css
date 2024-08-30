@@ -54,6 +54,10 @@ nav{
     background-color: #FFFFFF;
 }
 
+.shop-count {
+    color: #1B1B1B;
+}
+
 /* heading */
 
 h1{
@@ -82,21 +86,7 @@ h1{
         background-color:  #E7272D;
         margin-left: 20px;
     }
-  
-    
-    
 }
-
-/* .count {
-    font-size: 10px;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    background-color: #E7272D;
-    position: absolute;
-    margin-left: 995px;
-    margin-bottom: 25px;
-} */
 
 /* best food items */
 .best-food-name {
@@ -105,7 +95,6 @@ h1{
         font-weight: 800;
         line-height: 60px;
         width: 505px;
-    
 }
 
    .foods{
@@ -209,6 +198,17 @@ h1{
     color: #1B1B1B;
 }
 
+.icon-middle {
+    font-size: 14px;
+    color: #E7272D;
+}
+.food-gellary {
+    i {
+        font-size: 13px;
+        color: #E7272D;
+    }
+}
+
 
 .cart {
     text-align: center;
@@ -235,9 +235,14 @@ h1{
 input {
     font-size: 18px;
     height: 50px;
+    border: 1px solid #E7E7E7;
+    
+   
 }
 select {
     height: 50px;
+    border: 1px solid #E7E7E7;
+
 }
 
 .foods {
@@ -249,6 +254,37 @@ select {
         font-size: 18px;
         width: 128px;
     }
+}
+/* our food */
+.drinks {
+    position: relative;
+}
+
+
+.mark-1 {
+    position: absolute;
+    border: 1px solid red;
+    height: 300px;
+    bottom: 0;
+   left: 20px;
+}
+
+.mark-2 {
+    position: absolute;
+    border: 1px solid red;
+    width: 300px;
+    bottom: 20px;
+    left: 10px;
+
+}
+
+.drink {
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    bottom: 25px;
+    color: #CCCCCC;
 }
 
 
@@ -293,6 +329,10 @@ select {
         color: #CCCCCC;
     }
     .address {
+        .span {
+            text-align: center;
+            margin-bottom: 20px;
+
     }
     .icon1 {
         font-size: 16px;
@@ -300,6 +340,9 @@ select {
         background-color: #E7272D;
         margin-bottom: 20px;
         border-radius: 3px;
+        margin-left: -30px;
+        margin-right: 10px;
+
     }
     li {
         display: flex;
@@ -307,9 +350,9 @@ select {
         color: #FFFFFF;
     }
     .location {
-        margin-left: 5px;
-        color: #CCCCCC;
-        margin-top: 20px;
+
+
+        
     }
     a{
         color: #CCCCCC;
@@ -325,10 +368,14 @@ select {
 }
 
 .footer-end {
+    margin-top: 20px;
     font-size: 20px;
    text-align: center;
-   margin-top: 30px;
+   background-color: #262525;
     color: #CCCCCC;
+    padding: 20px 0;
+
+}
 }
 
 
