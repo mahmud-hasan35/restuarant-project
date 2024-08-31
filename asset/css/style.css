@@ -280,7 +280,16 @@ select {
 /* our food */
 .drinks {
     position: relative;
-}
+    }
+    .our-food-gellary{
+        img{
+            &:hover{
+                filter: brightness(20%);
+                transition: all .2s;
+             }
+        }
+    }
+
 
 
 .mark-1 {
